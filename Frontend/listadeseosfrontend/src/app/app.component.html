@@ -1,0 +1,27 @@
+
+
+<div class="main-container">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">name</th>
+        <th scope="col">price</th>
+        <th scope="col">stock</th>
+        <th scope="col">client</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of Data">
+        <th scope="row">1</th>
+        <td>{{item.name}}</td>
+        <td>{{item.price}}</td>
+        <td>{{item.stock}}</td>
+        <td>{{item.clientIdentification}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+<router-outlet></router-outlet>
