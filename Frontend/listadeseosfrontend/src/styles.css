@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+
+footer
+{
+    text-align: left;
+}
+
+footer h1
+{
+    padding-top: 25px;
+    color: aliceblue;
+    padding: 50px;
+}
+
+body
+{
+    background-color: #000329;
+}
+
+main
+{
+    height: 100vh;
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo
+{
+    height: 300px;
+}
